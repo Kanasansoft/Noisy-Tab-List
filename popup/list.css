@@ -1,0 +1,46 @@
+html, body {
+  width: 600px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #eee;
+}
+
+#title {
+  padding: 4px;
+  font-weight: bold;
+}
+
+#title img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+#title img, #title span {
+  vertical-align: middle;
+}
+
+.tabs {
+  padding: 0;
+  margin: 0;
+}
+
+.tab {
+  list-style: none;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.tab img, .tab span {
+  vertical-align: bottom;
+}
+
+.tab:hover {
+  background-color: #fff;
+}
+
+.favicon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
